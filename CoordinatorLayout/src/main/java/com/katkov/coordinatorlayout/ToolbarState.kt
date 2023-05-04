@@ -7,7 +7,7 @@ import androidx.compose.ui.input.nestedscroll.NestedScrollSource
 
 @Composable
 fun rememberToolBarState(
-    minToolbarHeightPx: Float,
+    minToolbarHeightPx: Float = 0f,
     maxToolbarHeightPx: Float
 ): ToolbarState {
     return remember {
@@ -20,7 +20,7 @@ fun rememberToolBarState(
 
 @Stable
 open class ToolbarState(
-    val minToolbarHeightPx: Float = 0f,
+    val minToolbarHeightPx: Float,
     val maxToolbarHeightPx: Float
 ) {
 
