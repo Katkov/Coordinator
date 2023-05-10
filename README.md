@@ -1,5 +1,5 @@
 # Coordinator
-An implementation of Jetpack Compose version [CollapsingToolbarLayout](https://developer.android.com/reference/com/google/android/material/appbar/CollapsingToolbarLayout) for Jetpack Compose
+An implementation of Jetpack Compose version [CoordinatorLayout](https://developer.android.com/reference/androidx/coordinatorlayout/widget/CoordinatorLayout)) for Jetpack Compose
 
 ## Installation
 Add `maven { url 'https://jitpack.io' }` to settings.gradle:
